@@ -6,15 +6,23 @@ Apollo Server to handle to get images from site
 The images can be getted by sending these parameters
 `width`, `height`, `young` and `grayscale`
 
+# Installing
+
+`npm install`
+
+# Running
+
+`npm start`
+
 Can be Docker containerized.
 
 # Build Docker
 
-### `docker build -t az-image-server .`
+`docker build -t az-image-server .`
 
 # Run Docker
 
-### `docker run -dp 127.0.0.1:4000:4000 az-image-server`
+`docker run -dp 127.0.0.1:4000:4000 az-image-server`
 
 # Query
 
